@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="Actividad6/font-awesome-4.7.0">
+  <title> Actividad 6 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    .row{
+      clear: both;
+    }
+
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+    .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5,
+    .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10{
+      float: left;
+    }
+
+    @media(max-width: 480px){
+      .col-sm-1{
+        width: 10%;
+      }
+      .col-sm-2{
+        width: 20%;
+      }
+      .col-sm-3{
+        width: 30%;
+      }
+      .col-sm-4{
+        width: 40%;
+      }
+      .col-sm-5{
+        width: 50%;
+      }
+      .col-sm-6{
+        width: 60%;
+      }
+      .col-sm-7{
+        width: 70%;
+      }
+      .col-sm-8{
+        width: 80%;
+      }
+      .col-sm-9{
+        width: 90%;
+      }
+      .col-sm-10{
+        width: 100%;
+      }
+    }
+
+    @media(min-width: 481px){
+      .col-md-1{
+        width: 10%;
+      }
+      .col-md-2{
+        width: 20%;
+      }
+      .col-md-3{
+        width: 30%;
+      }
+      .col-md-4{
+        width: 40%;
+      }
+      .col-md-5{
+        width: 50%;
+      }
+      .col-md-6{
+        width: 60%;
+      }
+      .col-md-7{
+        width: 70%;
+      }
+      .col-md-8{
+        width: 80%;
+      }
+      .col-md-9{
+        width: 90%;
+      }
+      .col-md-10{
+        width: 100%;
+      }
+    }
+    body{
+      font-family: 'Lato', sans-serif;   
+    }
+    .header{
+      margin:auto;
+      max-width: 100%;
+      display: table-cell;
+      text-align: center;
+      background-color: #bdc3c7;
+    }
+    img{
+      border-radius: 60%;
+      max-width: 50%;
+      margin:auto;
+      display:block;
+    }
+    span{
+      color:#c0392b;
+    }
+    h2{
+      color:#c0392b;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="row">
+  <div class="img">
+    <img src="images/yo.jpeg">
+    <div class="header"> 
+      <h1> Holo, mi nombre es <span>Catmon</span> y este es mi CV </h1>
+    </div>
+  </div>
+    <div class="midsection">
+
+    </div>
+    <div class="col-md-5 col-sm-8">
+      <h2> // Acerca de</h2>
+        <p>MA in Art History, Minor in Digital Contents, currently specializing in UX. Solid formation in research, creative processes, and aiming to get a master in HCI+D.
+          Teamwork lover and experienced in multicultural/trilingual work environments, familiarized with Start Up working methods, fast adaptability and learning. 
+          Passionate prototyper, wireframer, card sorter, empathy map generator, and interviewer. Enjoys to work with people for people (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧.</p>
+        </div>
+        <div class="col-md-5 col-sm-8">
+          <h2> // Contacto</h2>
+          <ul>
+            <li>Email: montecinos.catalina@gmail.com</li>
+            <li>Skype: Catmonteci</li>
+            <li>Twitter: @Catdmios</li>
+            <li>Linkedin </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-5 col-sm-8">
+          <h2> // Educación</h1>
+            <div class="col-md-1 col-sm-2">
+              <h2> 2016</h2>
+            </div>
+            <div class="col-md-4 col-sm-8">
+              <h3>Diplomado en Desarrollo y Gestión de Contenidos Digitales</h3>
+            </div>
+            <div class="col-md-5 col-sm-9"> 
+              <p>-Comprensión de G. Analitics aplicado en Twitter y págs web. <br>
+                -Introducción a Arquitectura de la información y UX. <br>
+                -Generación de proyecto bajo metodología ágil. <br>
+                -Recolección de datos cuantitativos (encuestas), Focus group (cualitativo), investigación de benchmark y stakeholders aplicados a casos.</p>
+              </div>
+              <div class="col-md-1 col-sm-2">
+                <h2> 2012</h2>
+              </div>
+              <div class="col-md-4 col-sm-8">
+                <h3>Magister en Historia del Arte</h3>
+              </div>
+              <div class="col-md-5 col-sm-9"> 
+                <p>-Como aprender a investigar. <br>
+                  -Cosas muy lindas. <br>
+                  -Y preguntarse "porqué eres azí". <br>
+                  - Para luego saber "ok, puede que lo aplique alguna vez en mi bidah</p>
+                </div>
+              </div>
+              <div class="col-md-5 col-sm-8">
+                <h2> // Skills</h2>
+                <ul>
+                  <li>HTML: ✧✧ </li>
+                  <li>CSS: ✧✧ </li>
+                  <li>Rails: ✧✧</li>
+                  <li>Ruby: ✧</li>
+                  <li>UX: ✧✧✧✧</i></li>
+                  <li>HCI: ✧✧✧✧ </li>
+                  <li>UCD: ✧✧✧✧</li>
+                  <li>Design Thinking: ✧✧✧✧</li>
+                  <li>Creative Problem Solver: ✧✧✧✧</li>
+                  <li>Empathic: ✧✧✧✧</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-5 col-sm-8">
+                <h2> // Experiencia</h1>
+                  <div class="col-md-1 col-sm-2">
+                    <h2> 2017</h2>
+                  </div>
+                  <div class="col-md-2 col-sm-8">
+                    <h3>AcidLabs</h3>
+                  </div>
+                  <div class="col-md-5 col-sm-9"> 
+                    <p>-LAlalalalalallalalalalalalala. <br>
+                      -Dadadadadadad adadadad ada adadadada. <br>
+                      -Pepepe pepe epepe epepe epepe pep epep epep pep . <br>
+                      -Asdaba slah sdlf dfhjfo ko kgthdjfof.</p>
+                    </div>
+                    <div class="col-md-1 col-sm-2">
+                      <h2> 2017</h2>
+                    </div>
+                    <div class="col-md-2 col-sm-8">
+                      <h3> Analitycs10</h3>
+                    </div>
+                    <div class="col-md-5 col-sm-9"> 
+                      <p>-Abrsdkfo dkf ps ahd ddjfomso. <br>
+                        -Bibimbab bulgogi asaba. <br>
+                        -Pizza napolitana con piña. <br>
+                        -Y había gatos.</p>
+                    </div>
+                      <div class="col-md-5 col-sm-8">
+                        <h2> // Idiomas</h2>
+                        <ul>
+                          <li>Español: ✧✧✧✧✧</li>
+                          <li>Inglés: ✧✧✧✧✧</li>
+                          <li>Alemán: ✧✧✧✧</li>
+                          <li>Lolcat: ✧✧✧✧✧ </li>
+                          <li>Dogge: ✧✧✧</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </body>
+                  </html>
